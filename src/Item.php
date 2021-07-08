@@ -54,10 +54,10 @@ class Item
      */
     public function set($key, $value)
     {
-        if ($value == '') {
-            /* Empty strings are not allowed, convert to null */
-            $value = null;
-        }
+        //if ($value == '') {
+        //    /* Empty strings are not allowed, convert to null */
+        //    $value = null;
+        //}
 
         if (!$this->isSet($key)) {
             /* First add an empty attribute to this item */
